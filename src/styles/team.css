@@ -1,0 +1,24 @@
+#team_section {
+    font-family: Montserrat_bold, sans-serif;
+}
+
+#timeline_section {
+    font-family: Montserrat_bold, sans-serif;
+}
+
+#project_section {
+    font-family: Montserrat_bold, sans-serif;
+}
+
+.monserrat {
+    font-family: Montserrat, sans-serif;
+}
+
+.monserrat_extra_bold {
+    font-family: Montserrat_extra_bold, sans-serif;
+}
+
+.avatar_card {
+    border-radius: 50%;
+    transition: transform 1s ease;
+}

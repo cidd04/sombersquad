@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Hanson;
+    src: url(./Hanson-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat_bold;
+    src: url(./Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat_extra_bold;
+    src: url(./Montserrat-ExtraBold.ttf);
+}
+
+.container-fluid {
+    font-family: Hanson, sans-serif;
+}
+
+.roadmap_header {
+    font-family: Montserrat_bold, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.roadmap {
+    font-family: Montserrat, sans-serif;
+}
+
+.team {
+    font-family: Montserrat, sans-serif;
+}
+
+

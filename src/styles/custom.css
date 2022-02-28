@@ -1,0 +1,53 @@
+.preview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navigation_container {
+    font-family: Montserrat_extra_bold, sans-serif;
+}
+
+.first_page {
+    height: 600px;
+}
+
+.second_page {
+    min-height: 600px;
+}
+
+.second_page_inner1 {
+    width: 18rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer-inner {
+    height: 100px;
+    margin-top: 40px;
+}
+
+.med-font {
+    font-size: 1.3rem;
+}
+
+.pad-left {
+    padding-left: 20px;
+}
+
+.font-size-lg {
+    text-size: 20px;
+}
+
+.padding-top-md {
+    padding-top: 40px;
+}

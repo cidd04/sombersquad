@@ -300,7 +300,10 @@ function App() {
                     <div className="col-sm-5 col-lg-4 col-md-4  d-flex flex-column justify-content-center mt-5">
                         <h1 className="text-uppercase text-light fs-1 text-center monserrat_extra_bold">
                             Somber Squad</h1>
-                        <button href="#" className="btn btn-dark bg-light text-uppercase text-dark ">Buy
+                        <button href="#" onClick={(e) => {
+                            window.open('https://opensea.io/collection/sombersquad', '_blank').focus()
+                            }}
+                            className="btn btn-dark bg-light text-uppercase text-dark ">Buy
                             on OpenSea
                         </button>
                         <br />
@@ -317,7 +320,7 @@ function App() {
                                             getData();
                                         }}
                                         href="#" className="btn btn-dark bg-light text-uppercase text-dark ">
-                                    {claimingNft ? "Busy" : "Mint here at 0.2 eth"}
+                                    {claimingNft ? "Busy" : "Mint here at 35 MATIC"}
                                 </button>
                             </>)
                         }
@@ -332,13 +335,15 @@ function App() {
                         <img className="img-fluid rounded" width="300" height="300" src={"/config/images/2_300.png"} alt="img" />
                     </div>
                     <div className="col-sm-3 col-lg-3 col-md-3 d-flex flex-column text-light justify-content-center med-font mt-5">
-                        <p>Somber Squad launched on March 15, 2022. Each NFT is unique and no two are exactly alike.
-                            The combination of the aesthetics was randomly generated from multiple hand drawn traits.</p>
+                        <p>199 unique collectible NFTs with proof of ownership stored on the Polygon blockchain.
+                            Each NFT is unique and no two are exactly alike.
+                            </p>
                     </div>
                 </div>
                 <div className="row d-flex flex-wrap justify-content-center mt-5">
                     <div className="col-sm-3 col-lg-3 col-md-3 d-flex flex-column text-light justify-content-center med-font ">
-                        <p>Some traits are common and some are rare. If you’re lucky, you might get a legendary trait!.</p>
+                        <p>Aesthetics was randomly generated from multiple hand drawn traits.
+                            Some traits are common and some are rare. If you’re lucky, you might get a legendary trait!.</p>
                     </div>
                     <div className="col-sm-4 col-lg-3 col-md-3 text-center mt-5">
                         <img className="img-fluid rounded" width="300" height="300" src={"/config/images/3_400.png"} alt="img" />
@@ -349,13 +354,13 @@ function App() {
                         <img className="img-fluid rounded" width="300" height="300" src={"/config/images/4_400.png"} alt="img" />
                     </div>
                     <div className="col-sm-3 col-lg-3 col-md-3 d-flex flex-column text-light justify-content-center med-font mt-5">
-                        <p>As a thank you for supporting Yuna (the artist), NFT holders will have access to her latest projects.
-                            Be sure to follow Somber Squad in Twitter and join the Discord channel</p>
+                        <p>As a thank you for supporting luna (the artist), NFT holders will have access to her latest projects.
+                            Be sure to follow Twitter and join the Discord channel</p>
                     </div>
                 </div>
                 <div className="row d-flex flex-wrap justify-content-center mt-5">
                     <div className="col-sm-3 col-lg-3 col-md-3 d-flex flex-column text-light justify-content-center med-font ">
-                        <p>Your minted or bought NFTs are viewable on your account as well as on the official OpenSea Somber Squad collection.</p>
+                        <p>Your minted or purchased NFTs are viewable on your OpenSea account as well as on the official OpenSea Somber Squad collection.</p>
                     </div>
                     <div className="col-sm-4 col-lg-3 col-md-3 text-center mt-5">
                         <img className="img-fluid rounded" width="300" height="300" src={"/config/images/5_400.png"} alt="img" />
@@ -396,7 +401,7 @@ function App() {
                             </p>
                         </div>
                         <div className="card-text ps-2 border-start text-light">
-                            Co-founder of Suicide Squad. Operations and Social Media Manager.
+                            Co-founder of Somber Squad. Operations and Social Media Manager.
                         </div>
                     </div>
                 </div>
@@ -412,7 +417,7 @@ function App() {
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center gap-4 second_page_inner1 ">
                         <div className="card-text ps-2 border-start text-light monserrat">
-                            <p>Founder Somber Squad NFTs available to mint on March 5, 2022 for 35 MATIC (~0.02 ETH or ~50 USD) and sold out in less than 10 minutes</p>
+                            <p>First 50 Somber Squad NFTs available to mint on March 5, 2022 for 35 MATIC (~0.02 ETH or ~50 USD) and sold out in less than 10 minutes</p>
                         </div>
                     </div>
                 </div>
@@ -439,30 +444,30 @@ function App() {
             <div id="faq_section" className="container-fluid bg-dark d-flex flex-column justify-content-center align-items-center team">
                 <h1 className="text-uppercase text-light text-center mt-5">Frequently Asked Questions</h1>
                 <h4 className="text-uppercase text-light text-center padding-top-md">1. Where do I see my newly minted Somber Squad NFT?</h4>
-                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center med-font mt-5">
+                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center mt-5">
                     <p className="text-light">Somber Squad NFT adheres to ERC721 standard and follows OpenSea metadata. You can find your NFTs <a href="https://opensea.io/account" target="_blank">our your OpenSea account</a>.
                     </p>
                 </div>
                 <h4 className="text-uppercase text-light text-center padding-top-md">2. How do I mint a Somber Squad NFT?</h4>
-                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center med-font mt-5">
+                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center mt-5">
                     <p className="text-light">First, you should have metamask installed. Since Somber Squad NFT is using the Polygon Network, you should fund your wallet with MATIC.
                         You can buy MATIC from popular crypto exchange platforms such as Binance and Crypto.com and then send them to your metamask wallet. Make sure you are transferring using the Polygon Network.
                         Once your wallet is funded, click the 'Mint Here' button on this site.
                     </p>
                 </div>
                 <h4 className="text-uppercase text-light text-center padding-top-md">3. Can I buy this NFT in OpenSea without high gas fees?</h4>
-                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center med-font mt-5">
+                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center mt-5">
                     <p className="text-light">Sombre Squad NFT is stored in the Polygon Network which OpenSea supports and recommends. You need WETH (wrapped ETH) to
                         purchase Somber Squad NFT in OpenSea and one cheap way to fund your metamask wallet is to buy MATIC and use <a href="https://app.sushi.com/swap" target="_blank">sushiswap</a> to convert from MATIC to WETH.
                     </p>
                 </div>
                 <h4 className="text-uppercase text-light text-center padding-top-md">4. What is the Somber Squad Twitter?</h4>
-                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center med-font mt-5">
+                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-center justify-content-center mt-5">
                     <p className="text-light">You can follow <a href="https://twitter.com/SomberSquadNFT" target="_blank">our Twitter</a>. We post updates, news, and a variety of content on our Twitter.
                     </p>
                 </div>
                 <h4 className="text-uppercase text-light text-center padding-top-md">5. What is the Somber Squad Twitter?</h4>
-                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-justify justify-content-center med-font mt-5">
+                <div className="col-sm-7 col-lg-7 col-md-7 d-flex flex-column text-light text-center justify-content-center mt-5">
                     <p className="text-light">You can follow <a href="https://discord.gg/KDyq6aHArM" target="_blank">our Discord</a>. Our moderators are willing to address any of your concerns.
                     </p>
                 </div>

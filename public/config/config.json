@@ -1,17 +1,17 @@
 {
-  "CONTRACT_ADDRESS": "0x3F13370270480848e85d04110dB6A91F8F4938D9",
-  "SCAN_LINK": "https://mumbai.polygonscan.com/token/0x3F13370270480848e85d04110dB6A91F8F4938D9",
+  "CONTRACT_ADDRESS": "0x5678a0290b784081684e86a5900d51458e04cc2e",
+  "SCAN_LINK": "https://polygonscan.com/token/0x5678a0290b784081684e86a5900d51458e04cc2e",
   "NETWORK": {
-    "NAME": "Mumbai",
+    "NAME": "Polygon",
     "SYMBOL": "Matic",
-    "ID": 80001
+    "ID": 137
   },
   "NFT_NAME": "Somber Squad",
   "SYMBOL": "SSNFT",
-  "MAX_SUPPLY": 8888,
-  "WEI_COST": 5000000000000000,
-  "DISPLAY_COST": 0.005,
-  "GAS_LIMIT": 285000,
+  "MAX_SUPPLY": 199,
+  "WEI_COST": 35000000000000000000,
+  "DISPLAY_COST": 35,
+  "GAS_LIMIT": 500000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/somber-squad-nft",
   "SHOW_BACKGROUND": true
